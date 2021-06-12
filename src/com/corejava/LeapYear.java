@@ -3,7 +3,8 @@ package com.corejava;
 import java.util.Scanner;
 
 public class LeapYear {
-    public static void main(String[] args) {
+    @SuppressWarnings("resource")
+	public static void main(String[] args) {
             int year;
             System.out.println("Enter an Year : ");
             Scanner sc = new Scanner(System.in);
